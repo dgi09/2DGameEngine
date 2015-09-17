@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<root>
+  <app>
+    <name>App name</name>
+    <rootPath>rootPath</rootPath>
+    <startScreen>screen name</startScreen>
+    <currentScreen>screenName</currentScreen>
+    <numberOfHeapTextue> number </numberOfHeapTextue>
+    <numberOfHeapSprites>sprites</numberOfHeapSprites>
+    <numberOfHeapTexts>texts</numberOfHeapTexts>
+  </app>
+  <screens>
+    <screen>
+      <name> name </name>
+      <script> script </script>
+      <color r="" g="" b=""></color>
+      <sprites>
+        <sprite>
+          <instanceName> i name </instanceName>
+          <x></x>
+          <y></y>
+          <texturePath>path</texturePath>
+          <frameWidth></frameWidth>
+          <frameHeight></frameHeight>
+          <animated></animated>
+          <animations>
+            <animation>
+              <name></name>
+              <playStyle></playStyle>
+              <startFrame></startFrame>
+              <endFrame></endFrame>
+            </animation>
+          </animations>
+        </sprite>
+      </sprites>
+      <texts>
+        <text>
+          <instanceName></instanceName>
+          <text></text>
+          <x></x>
+          <y></y>
+          <fontPath></fontPath>
+          <color r="" g="" b=""></color>
+          <size></size>
+          <charSpacing></charSpacing>
+        </text>
+      </texts>
+      <lSprites>
+        <lSprite>
+          <lSprite>
+            <texturePath>path</texturePath>
+            <frameWidth></frameWidth>
+            <frameHeight></frameHeight>
+            <animated></animated>
+            <animations>
+              <animation>
+                <name></name>
+                <playStyle></playStyle>
+                <startFrame></startFrame>
+                <endFrame></endFrame>
+              </animation>
+            </animations>
+          </lSprite>
+        </lSprite>
+      </lSprites>
+    </screen>
+  </screens>
+</root>
